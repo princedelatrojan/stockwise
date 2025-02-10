@@ -82,18 +82,18 @@ const Sidebar = () => {
         }`}
       >
         <Image
-          src="https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/logo.png"
-          alt="edstock-logo"
-          width={27}
-          height={27}
-          className="rounded w-8"
+            src="https://3-stockwise.s3.ap-south-1.amazonaws.com/logo.png"
+            alt="StockWise Logo"
+            width={27}
+            height={27}
+            className="rounded w-8"
         />
         <h1
           className={`${
             isSidebarCollapsed ? "hidden" : "block"
           } font-extrabold text-2xl`}
         >
-          EDSTOCK
+          StockWise
         </h1>
 
         <button
@@ -146,7 +146,7 @@ const Sidebar = () => {
 
       {/* FOOTER */}
       <div className={`${isSidebarCollapsed ? "hidden" : "block"} mb-10`}>
-        <p className="text-center text-xs text-gray-500">&copy; 2024 Edstock</p>
+        <p className="text-center text-xs text-gray-500">&copy; 2025 Prince Trojan</p>
       </div>
     </div>
   );
